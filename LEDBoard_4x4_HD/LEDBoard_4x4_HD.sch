@@ -5,11 +5,11 @@ EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
-Title ""
-Date ""
-Rev ""
-Comp ""
-Comment1 ""
+Title "LEDBoard 4x4 HD"
+Date "2018-10-20"
+Rev "0.1"
+Comp "s-light"
+Comment1 "Stsefan Krüger"
 Comment2 ""
 Comment3 ""
 Comment4 ""
