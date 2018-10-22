@@ -1539,7 +1539,7 @@
   (gr_text "VCC        GND" (at 130.4 111.6) (layer B.SilkS) (tstamp 5BF3BD1E)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left mirror))
   )
-  (gr_text "VCC        GND" (at 102.5 111.4) (layer F.SilkS) (tstamp 5BF3BD1A)
+  (gr_text "VCC         GND" (at 102.5 111.6) (layer F.SilkS) (tstamp 5BF3BD1A)
     (effects (font (size 0.5 0.5) (thickness 0.1)) (justify left))
   )
   (gr_text "GND        VCC" (at 124.4 111.6) (layer F.SilkS) (tstamp 5BF3BD04)
