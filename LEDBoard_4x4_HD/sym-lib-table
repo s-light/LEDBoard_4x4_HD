@@ -1,3 +1,4 @@
 (sym_lib_table
   (lib (name Driver_LED)(type Legacy)(uri /home/stefan/mydata/github/kicad/kicad-symbols/Driver_LED.lib)(options "")(descr modifications))
+  (lib (name VCC_LED)(type Legacy)(uri /home/stefan/mydata/github/magic_amulet/magic_amulet_pcbs/LEDBoard_4x4_HD/VCC_LED.lib)(options "")(descr ""))
 )

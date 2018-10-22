@@ -2,4 +2,5 @@
   (lib (name LEDs_SMD_NICHIA)(type KiCad)(uri /home/stefan/mydata/kicad/mylib/LEDs_SMD_NICHIA.pretty)(options "")(descr ""))
   (lib (name Package_DFN_QFN)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR_GIT}/Package_DFN_QFN.pretty)(options "")(descr MOD))
   (lib (name Package_SO)(type KiCad)(uri ${KICAD_FOOTPRINT_DIR_GIT}/Package_SO.pretty)(options "")(descr MOD))
+  (lib (name PCB_SolderMount)(type KiCad)(uri ${KIPRJMOD}/PCB_SolderMount.pretty)(options "")(descr ""))
 )
