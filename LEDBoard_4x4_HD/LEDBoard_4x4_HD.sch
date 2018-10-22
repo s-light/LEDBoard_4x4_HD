@@ -6,8 +6,8 @@ $Descr A4 11693 8268
 encoding utf-8
 Sheet 1 1
 Title "LEDBoard 4x4 HD"
-Date "2018-10-20"
-Rev "0.1"
+Date "2018-10-22"
+Rev "0.1.0"
 Comp "s-light"
 Comment1 "Stsefan Krüger"
 Comment2 ""
