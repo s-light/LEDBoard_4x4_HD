@@ -31,5 +31,9 @@ Qty.    Mfr. No             Manufacturer            Description
 
 
 ### TODO
--   solder boards
--   write software
+-   [ ] solder boards
+-   [ ] write software
+    -   [ ] tests
+    -   [ ] arduino library
+    -   [ ] CircuitPython library
+    -   [ ] examples
