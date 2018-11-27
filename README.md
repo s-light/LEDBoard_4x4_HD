@@ -1,14 +1,19 @@
+<!--lint disable list-item-indent-->
+<!--lint disable list-item-bullet-indent-->
+
 # magic_amulet_pcb
 PCB for magic amulet
 
-![LEDBoard_4x4_HD](./LEDBoard_4x4_HD/export/3d/LEDBoard_4x4_HD.png)
+![LEDBoard_4x4_HD CAD](./LEDBoard_4x4_HD/export/3d/LEDBoard_4x4_HD.png)
+![LEDBoard_4x4_HD working](./LEDBoard_4x4_HD/photos/P1700254_small.jpg)
+![LEDBoard_4x4_HD controlled by ItsyBitsy M4 with CircuitPython](./LEDBoard_4x4_HD/photos/P1700258_small__TLC5957_controlled_by_ItsyBitsyM4CircuitPython.jpg)
 
 Overall Size:  
 33mm x 14mm
 
 ### PCB
 4layer board - uses 150mil traces and 100mil trace spacing  
-pcb are in production at [aisler](https://aisler.net/s-light/magic_amulet/led-board-4x4-hd)
+shown pcb came from [aisler](https://aisler.net/s-light/magic_amulet/led-board-4x4-hd)
 
 ### parts
 LED-Driver: [TLC5957](http://www.ti.com/lit/ds/symlink/tlc5957.pdf) (48ch CC 9-16Bit-PWM driver)  
@@ -30,10 +35,6 @@ Qty.    Mfr. No             Manufacturer            Description
 ```
 
 
-### TODO
--   [ ] solder boards
--   [ ] write software
-    -   [ ] tests
-    -   [ ] arduino library
-    -   [ ] CircuitPython library
-    -   [ ] examples
+### Software
+- [arduino library](https://github.com/s-light/slight_TLC5957)
+- [CircuitPython library](https://github.com/s-light/slight_CircuitPython_TLC5957)
