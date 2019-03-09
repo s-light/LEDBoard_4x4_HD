@@ -4,9 +4,9 @@
 # magic_amulet_pcb
 PCB for magic amulet
 
-![LEDBoard_4x4_HD CAD](./LEDBoard_4x4_HD/export/3d/LEDBoard_4x4_HD.png)
-![LEDBoard_4x4_HD working](./LEDBoard_4x4_HD/photos/P1700254_small.jpg)
-![LEDBoard_4x4_HD controlled by ItsyBitsy M4 with CircuitPython](./LEDBoard_4x4_HD/photos/P1700258_small__TLC5957_controlled_by_ItsyBitsyM4CircuitPython.jpg)
+![LEDBoard_4x4_HD CAD](./export/3d/LEDBoard_4x4_HD.png)
+![LEDBoard_4x4_HD working](./photos/P1700254_small.jpg)
+![LEDBoard_4x4_HD controlled by ItsyBitsy M4 with CircuitPython](./photos/P1700258_small__TLC5957_controlled_by_ItsyBitsyM4CircuitPython.jpg)
 
 Overall Size:  
 33mm x 14mm
