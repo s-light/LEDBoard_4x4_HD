@@ -1,8 +1,9 @@
 <!--lint disable list-item-indent-->
 <!--lint disable list-item-bullet-indent-->
 
-# magic_amulet_pcb
-PCB for magic amulet
+# LEDBoard_4x4_HD
+PCB originally designed for [magic_amulet](https://github.com/s-light/magic_amulet),  
+but now used in [magic_crystal](https://github.com/s-light/magic_crystal)
 
 ![LEDBoard_4x4_HD CAD](./export/3d/LEDBoard_4x4_HD.png)
 ![LEDBoard_4x4_HD working](./photos/P1700254_small.jpg)
@@ -34,6 +35,12 @@ Qty.    Mfr. No             Manufacturer            Description
 1       ERJ-PB3B7501V       Panasonic               Thick Film Resistors - SMD 0603 Anti-Surge Res. 0.1%, 7.5Kohm
 ```
 
+### power & cooling
+if you want to drive the leds with full power (up to 25mA/color)
+you definitely need a heatsink.  
+the pcb backside get to >= 60°C very fast without a heatsink!
+
+also remember that one board needs up to 1.2A@5V = 6W
 
 ### Software
 - [arduino library](https://github.com/s-light/slight_TLC5957)
