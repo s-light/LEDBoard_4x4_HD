@@ -42,6 +42,29 @@ the pcb backside get to >= 60°C very fast without a heatsink!
 
 also remember that one board needs up to 1.2A@5V = 6W
 
+
+### constant currente
+
+```
+RIREF(kΩ) = VIREF(V) / IOLCMax(mA)× Gain  | / Gain
+RIREF(kΩ) / Gain = VIREF(V) / IOLCMax(mA)  | swap
+Gain / RIREF(kΩ) = IOLCMax(mA) / VIREF(V)  | x VIREF(V)
+Gain / RIREF(kΩ) x VIREF(V) = IOLCMax(mA)
+
+Gain / 7.4kΩ x 1.2V = IOLCMax(mA)
+
+```
+|  Gain |  BC | IOLCMax |
+| ----: | --: | ------: |
+|  20.0 | 0x0 |   3.2mA |
+|  39.5 | 0x1 |   6.4mA |
+|  58.6 | 0x2 |   9.5mA |
+|  80.9 | 0x3 |  13.1mA |
+| 100.0 | 0x4 |  16.2mA |
+| 113.3 | 0x5 |  18.4mA |
+| 141.6 | 0x6 |  23.0mA |
+| 154.5 | 0x7 |  25.0mA |
+
 ### Software
 - [arduino library](https://github.com/s-light/slight_TLC5957)
 - [CircuitPython library](https://github.com/s-light/slight_CircuitPython_TLC5957)
