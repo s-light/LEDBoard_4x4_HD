@@ -1,6 +1,6 @@
 EESchema Schematic File Version 4
 LIBS:LEDBoard_4x4_HD-cache
-EELAYER 26 0
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -829,16 +829,14 @@ $EndComp
 $Comp
 L Device:R R1
 U 1 1 5BCD32F7
-P 4500 6550
-F 0 "R1" H 4430 6504 50  0000 R CNN
-F 1 "7.5KOhm 0.1%" H 4430 6595 50  0000 R CNN
-F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4430 6550 50  0001 C CNN
-F 3 "~" H 4500 6550 50  0001 C CNN
-	1    4500 6550
+P 4250 6000
+F 0 "R1" H 4180 5954 50  0000 R CNN
+F 1 "7.5KOhm 0.1%" H 4180 6045 50  0000 R CNN
+F 2 "Resistor_SMD:R_0603_1608Metric_Pad1.05x0.95mm_HandSolder" V 4180 6000 50  0001 C CNN
+F 3 "~" H 4250 6000 50  0001 C CNN
+	1    4250 6000
 	1    0    0    1   
 $EndComp
-Wire Wire Line
-	4500 6700 4600 6700
 Wire Wire Line
 	4600 6700 4600 6200
 Connection ~ 4600 6700
@@ -846,10 +844,10 @@ Text Notes 5000 7250 0    50   ~ 0
 BC        → Gain  → Iolc(@7.5kOhm)\n0h → 000 →  20.0 →  3.2mA (recommend)\n1h → 001 →  39.5 →  6.4mA\n2h → 010 →  58.6 →  9.5mA\n3h → 011 →  80.9 → 13.0mA\n4h → 100 → 100.0 → 16.1mA (default)\n5h → 101 → 113.3 → 18.3mA\n6h → 110 → 141.6 → 22.8mA\n7h → 111 → 154.5 → 24.9mA
 Text Notes 5000 6500 0    30   ~ 0
 1.209V/25mA*154.5 = 7.49kOhm\n154.5 / 7,5kOhm * 1.209V = 24.9 mA\n25mA / 1.209V * ?kOhm = 154.5
-Text Label 4500 6400 1    50   ~ 0
+Text Label 4250 5850 1    50   ~ 0
 IREF
 Wire Wire Line
-	4500 6200 4500 6400
+	4250 5600 4250 5850
 Wire Wire Line
 	4800 6200 4800 6700
 Text Label 4300 3200 2    50   ~ 0
@@ -1123,4 +1121,10 @@ $EndComp
 Wire Wire Line
 	3250 5550 2900 5550
 Connection ~ 2900 5550
+Wire Wire Line
+	4250 5600 4300 5600
+Wire Wire Line
+	4250 6150 4250 6700
+Wire Wire Line
+	4250 6700 4600 6700
 $EndSCHEMATC
