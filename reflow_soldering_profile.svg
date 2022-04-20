@@ -15,8 +15,8 @@
    viewBox="0 0 480 300"
    version="1.1"
    id="svg8"
-   inkscape:version="0.92.3 (2405546, 2018-03-11)"
-   sodipodi:docname="reflow_soldering_profile.svg">
+   inkscape:version="0.92.1 r15371"
+   sodipodi:docname="reflow_soldering_curve.svg">
   <defs
      id="defs2">
     <linearGradient
@@ -488,16 +488,16 @@
      borderopacity="1.0"
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
-     inkscape:zoom="0.61780209"
-     inkscape:cx="568.59158"
-     inkscape:cy="894.79785"
+     inkscape:zoom="0.43685205"
+     inkscape:cx="1011.8629"
+     inkscape:cy="577.01072"
      inkscape:document-units="mm"
-     inkscape:current-layer="g1357"
+     inkscape:current-layer="g5065"
      showgrid="true"
      inkscape:showpageshadow="false"
      borderlayer="true"
      inkscape:window-width="1920"
-     inkscape:window-height="1015"
+     inkscape:window-height="1023"
      inkscape:window-x="0"
      inkscape:window-y="0"
      inkscape:window-maximized="1"
@@ -534,7 +534,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -1184,7 +1184,7 @@
      inkscape:groupmode="layer"
      id="layer3"
      inkscape:label="info"
-     style="display:inline"
+     style="display:none"
      sodipodi:insensitive="true">
     <text
        xml:space="preserve"
@@ -1681,7 +1681,7 @@
      inkscape:groupmode="layer"
      id="layer4"
      inkscape:label="felder recommendations"
-     style="display:inline;opacity:0.2"
+     style="display:none;opacity:0.2"
      sodipodi:insensitive="true">
     <g
        transform="matrix(1.0850205,0,0,-1.2823713,-98.251759,688.69503)"
@@ -2489,8 +2489,9 @@
   <g
      inkscape:groupmode="layer"
      id="layer2"
-     inkscape:label="rohm recommendations"
-     style="display:inline">
+     inkscape:label="nichia recommendations"
+     style="display:inline"
+     sodipodi:insensitive="true">
     <rect
        style="fill:#00ff00;fill-opacity:0.19607843;stroke:none;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="rect4650"
@@ -2508,24 +2509,25 @@
          id="tspan4510-5"
          x="10"
          y="80"
-         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">max 40s above 230°C-250°C</tspan></text>
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">max 60s above 220°C</tspan></text>
     <path
+       transform="translate(0,3.0000001)"
        style="fill:none;stroke:#ee0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 0,50.000001 c 0,0 480,4e-6 480,-10e-7"
+       d="M 2.0000067e-6,37.000001 C 2.0000067e-6,37.000001 480,37.000005 480,37"
        id="path4508"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Overlock;-inkscape-font-specification:Overlock;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="9.9999981"
-       y="50"
+       x="10"
+       y="40"
        id="text4512"><tspan
          sodipodi:role="line"
          id="tspan4510"
-         x="9.9999981"
-         y="50"
-         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">LED - abs. maxium temp 250°C 10s</tspan></text>
+         x="10"
+         y="40"
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">LED - abs. maxium temp 260°C 10s</tspan></text>
     <path
        transform="translate(0,3.0000001)"
        style="fill:none;stroke:#ee0000;stroke-width:1;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.35294118"
@@ -2543,38 +2545,104 @@
          id="tspan4550"
          x="10"
          y="110"
-         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">pre-heat 140-180°C</tspan><tspan
+         style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none">pre-heat 180-200°C</tspan><tspan
          sodipodi:role="line"
          x="10"
          y="123.22916"
          style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         id="tspan4554">&gt; 60s</tspan></text>
+         id="tspan4554">120s max</tspan></text>
     <path
        style="fill:none;stroke:#00ff00;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -140,130 60.000015,0"
+       d="M -200.00003,130 H -79.999985"
        id="path4558"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
     <text
        xml:space="preserve"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Overlock;-inkscape-font-specification:Overlock;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="181.97845"
-       y="62.588993"
+       x="-139.2411"
+       y="212.58899"
        id="text4552-3"><tspan
          sodipodi:role="line"
-         x="181.97845"
-         y="62.588993"
+         x="-139.2411"
+         y="212.58899"
          style="stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         id="tspan4554-6">ramp: &lt;3°C/s</tspan></text>
+         id="tspan4554-6">ramp: 1-5°C/s</tspan></text>
     <path
        style="fill:none;stroke:#ff0000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m -120,90.000002 40.000016,2e-6"
+       d="m -140.00001,90.000004 h 60.000026"
        id="path4558-7"
        inkscape:connector-curvature="0"
        sodipodi:nodetypes="cc" />
   </g>
   <g
+     inkscape:groupmode="layer"
+     id="layer5"
+     inkscape:label="nichia test"
      style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       transform="translate(0,3.0000001)"
+       style="display:inline;fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:0.26818183"
+       d="M 0,297 110,117 h 130 l 29.99999,-59.999996 h 120 L 469.99998,297"
+       id="path4556"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccc" />
+  </g>
+  <g
+     inkscape:label="ccc-ffm slow"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,3)"
+     style="display:none"
+     sodipodi:insensitive="true">
+    <path
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M -2.3999885e-6,277 209.99999,117.00001 300,117 370,57.000009 h 20 L 407,77.000004 429.99999,117 l 90,130 40,30"
+       id="path4556-1"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccc" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path4558-7"
+       id="use4667"
+       transform="translate(486.99999,-13)"
+       width="100%"
+       height="100%" />
+    <use
+       x="0"
+       y="0"
+       xlink:href="#path4558"
+       id="use4669"
+       transform="translate(410.00003,-22.999998)"
+       width="100%"
+       height="100%" />
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Overlock;-inkscape-font-specification:Overlock;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="128.61801"
+       y="208.726"
+       id="text4552-3-0-36"><tspan
+         sodipodi:role="line"
+         x="128.61801"
+         y="208.726"
+         style="font-size:7.05555534px;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan4554-6-9-7">ramp: 0.76°C/s</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Overlock;-inkscape-font-specification:Overlock;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+       x="304.61801"
+       y="73.725998"
+       id="text4552-3-0-36-3"><tspan
+         sodipodi:role="line"
+         x="304.61801"
+         y="73.725998"
+         style="font-size:7.05555534px;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
+         id="tspan6431">ramp: 0.86°C/s</tspan></text>
+  </g>
+  <g
+     style="display:inline"
      transform="translate(0,3)"
      id="g7522"
      inkscape:groupmode="layer"
@@ -2626,54 +2694,55 @@
          sodipodi:role="line">ramp: 1.08°C/s</tspan></text>
   </g>
   <g
-     inkscape:label="HackerspaceFFM"
-     inkscape:groupmode="layer"
-     id="g1357"
+     style="display:none"
      transform="translate(0,3)"
-     style="display:inline">
+     id="g5142"
+     inkscape:groupmode="layer"
+     inkscape:label="ccc-ffm fast"
+     sodipodi:insensitive="true">
     <path
-       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 1.9999998e-6,277 220,117 h 40 l 60,-64.999993 9.99999,3e-6 20,25 20,39.99999 L 420,247 l 60,30"
-       id="path1343"
+       sodipodi:nodetypes="cccccccc"
        inkscape:connector-curvature="0"
-       sodipodi:nodetypes="ccccccccc" />
+       id="path5132"
+       d="M 0,277 110,117 h 80 l 45,-67.999995 h 10 L 290,117 419.99999,247.15392 479.84716,277"
+       style="fill:none;stroke:#000000;stroke-width:1;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <use
-       x="0"
-       y="0"
+       height="100%"
+       width="100%"
+       transform="translate(356.00001,-13.000002)"
+       id="use5134"
        xlink:href="#path4558-7"
-       id="use1345"
-       transform="translate(419.99999,-13)"
-       width="100%"
-       height="100%" />
-    <use
-       x="0"
        y="0"
-       xlink:href="#path4558"
-       id="use1347"
-       transform="translate(440,-22.999998)"
+       x="0" />
+    <use
+       height="100%"
        width="100%"
-       height="100%" />
+       transform="translate(310.00003,-22.999998)"
+       id="use5136"
+       xlink:href="#path4558"
+       y="0"
+       x="0" />
     <text
-       xml:space="preserve"
+       id="text5140"
+       y="188.726"
+       x="70.505928"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Overlock;-inkscape-font-specification:Overlock;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="148.61801"
-       y="198.726"
-       id="text1351"><tspan
-         sodipodi:role="line"
-         x="148.61801"
-         y="198.726"
+       xml:space="preserve"><tspan
+         id="tspan5138"
          style="font-size:7.05555534px;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         id="tspan1349">ramp: 0.73°C/s</tspan></text>
+         y="188.726"
+         x="70.505928"
+         sodipodi:role="line">ramp: 1.45°C/s</tspan></text>
     <text
-       xml:space="preserve"
+       id="text5140-5"
+       y="75.215446"
+       x="168.61801"
        style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:10.58333302px;line-height:1.25;font-family:Overlock;-inkscape-font-specification:Overlock;letter-spacing:0px;word-spacing:0px;display:inline;fill:#000000;fill-opacity:1;stroke:none;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-       x="260.50592"
-       y="66.725998"
-       id="text1355"><tspan
-         sodipodi:role="line"
-         x="260.50592"
-         y="66.725998"
+       xml:space="preserve"><tspan
+         id="tspan5138-3"
          style="font-size:7.05555534px;stroke-width:1;stroke-miterlimit:4;stroke-dasharray:none"
-         id="tspan1353">ramp: 1.08°C/s</tspan></text>
+         y="75.215446"
+         x="168.61801"
+         sodipodi:role="line">ramp: 1.51°C/s</tspan></text>
   </g>
 </svg>

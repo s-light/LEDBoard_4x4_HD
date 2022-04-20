@@ -20,7 +20,7 @@ shown pcb came from [aisler](https://aisler.net/s-light/magic_amulet/led-board-4
 LED-Driver: [TLC5957](http://www.ti.com/lit/ds/symlink/tlc5957.pdf) (48ch CC 9-16Bit-PWM driver)  
 more information in AppNote [Build a High-Density, High-Refresh Rate, Multiplexing Panel With the TLC5957](http://www.ti.com/lit/ug/slvuaf0/slvuaf0.pdf)
 
-LED: [Rohm MSL0402RGB](https://www.rohm.com/datasheet/MSL0402RGBU) (1.8x1.6x0.5mm RGB)
+LED: [Rohm MSL0402RGBU](https://www.rohm.com/products/led/chip-leds-multi-color-type/msl0402rgbu-product) (1.8x1.6x0.5mm RGB)
 
 ### BOM
 can be ordered with aisler parts-package  
@@ -43,7 +43,7 @@ the pcb backside get to >= 60°C very fast without a heatsink!
 also remember that one board needs up to 1.2A@5V = 6W
 
 
-### constant currente
+### constant current
 
 ```
 RIREF(kΩ) = VIREF(V) / IOLCMax(mA)× Gain  | / Gain
